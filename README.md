@@ -1,6 +1,6 @@
 # API de Games
 
-Esta aplicação é uma API REST desenvolvida com Node.js, Express e MongoDB para gerenciar registros de jogos.
+Esta aplicação é uma API REST desenvolvida com Node.js, Express e MongoDB para gerenciar registros de jogos. Os prints do funcionamento estão na pasta prints_postman
 
 ## Funcionalidades
 - **CRUD de Games:** Criar, listar, buscar por ID, atualizar e remover jogos.
