@@ -21,6 +21,11 @@ app.get('/' , (req, res) =>{
     res.json({message: "hello world"});
 });
 
+app.use((req, res, next) => {
+    console.log(`[${new Date().toISOString()}] ${req.method} ${req.originalUrl}`);
+    next();
+});
+
 //Rotas
 app.use('/games', gamesRouter);
 
